@@ -1,0 +1,256 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/*banner superior*/
+
+#BarraMenu {
+   
+    background-color: #fff;
+        padding: 1px;
+        position: fixed;
+        width: 100%;
+    
+   
+    }
+    #BarraMenu ul{
+       list-style-type: none;
+  
+       
+    }
+    #BarraMenu li{
+
+       display: inline;
+       text-align: center;
+       margin: 0 0 0 0;
+       
+    }
+    #BarraMenu li a {
+       
+       border: 1px solid #fff; 
+       padding: 4px 10px 4px 10px;
+       text-decoration: none;
+       color: rgb(111, 112, 112);
+             
+    }
+    #BarraMenu li a:hover{
+       background-color: #3e0afa;
+       color: #fff;
+       
+    }
+    #texto{
+    padding: 60px 0 0 0;
+    
+    }
+
+/*Info 1 pelea virus*/
+
+.textoIzquierda{
+    text-align: left;
+}
+
+
+h1{
+    color: #3e0afa;
+    font-size: 40px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+a{
+    border: 1px solid rgb(45, 57, 231);
+    padding: 10px;
+    text-decoration: none;
+    color: #3e0afa;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: auto;
+    
+}
+
+a:hover{
+    background-color: #3e0afa;
+    color: #fff;
+    
+ }
+
+h3{
+    font-size: 15px;
+    color: #3e0afa;
+}
+.pCuadro{
+    
+    padding: 0;
+    font-size: 15px;
+    line-height: 19px;
+    
+    
+
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    color: rgb(89, 92, 92);
+}
+
+table{
+    border-collapse: collapse;
+
+}
+
+th{
+    background-color: #fff;
+    color: cadetblue;
+    padding: 20px;
+}
+
+td{
+    background: #fff;
+    color: #3e0afa;
+    padding: 20px;
+    font-weight:bolder;
+    font-size: 25px;
+
+}
+
+.izquierda{
+    background: rgb(220, 252, 245);
+    height: 100vh;
+    width: 50%;
+}
+
+.derecha{
+    background: url(./images/jeringa2.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(220, 252, 245);
+
+}
+
+.opacidad{
+    opacity: 90%;
+    
+}
+
+
+#pantalla-dividida{
+    display: flex;
+}
+
+.izquierdaBlanco{
+    background: #fff;
+    height: 100vh;
+    width: 50%;
+}
+
+.cuadros{
+
+    background-color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+/* Cuadritos */
+
+.container{
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+      
+}
+
+.containerContact{
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+      
+}
+
+.divCuadro{
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 310px;
+    background: #ecf1f1;
+    float: left;
+    border-radius: 15px;
+    box-shadow: -7px 7px 10px;
+    
+}
+
+.izquierdaImg{
+    background: url(./images/indiceArriba.PNG);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(220, 252, 245);
+
+}
+
+.centrado{
+    color: #3e0afa;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px #81cfcf ;
+}
+
+
+/* parte de Contacto*/
+
+.contactoImagen{
+    background: url(./images/contacto.PNG);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(220, 252, 245);
+
+}
+
+.divCuadro2{
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+    height: 180px;
+    background: #ecf1f1;
+    float: left;
+    border-radius: 15px;
+    box-shadow: -7px 7px 10px;
+    
+}
+
+.th{
+    background: #fff;
+    color: #3e0afa;
+    padding: 25px;
+    font-weight:bolder;
+    font-size: 20px;
+    
+}
+
+.td{
+    background-color: #fff;
+    color: cadetblue;
+    padding: 15px;
+    font-size: 16px;
+}
